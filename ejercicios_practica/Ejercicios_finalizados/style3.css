@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color:whitesmoke;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.web1 ul{
+height: 100vh;
+display: flex;
+flex-direction: column;
+background-color: darkgreen;
+justify-content: center;
+text-align: center;
+}
+
+.web1 > ul > li > img{
+    width: 400px;
+    margin: 10px;
+}
+
+.web2 ul{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(5, 23, 78);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    
+.web2 > ul > li > img{
+    width: 140px;
+    margin: 20px;
+}
+
+.web3 ul{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 23, 78);
+    justify-content: end;
+    text-align: center;
+}
+    
+.web3 > ul > li > img{
+    width: 140px;
+    margin: 10px;
+}
+  
+.father {
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(
+      circle,
+      #3a3b38,
+      #2f3230,
+      #262928,
+      #1e2020,
+      #161718
+    );
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  
+}
+  
+header {
+    background-color: #2a2a2a;
+    padding-top: 10px;
+}
+  
+header > nav > ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.interactable {
+    cursor: pointer;
+    transition: all ease-out 250ms;
+}
+
+.interactable:hover {
+    padding: 10px;
+    border-bottom: 3px solid #c23469;
+}
